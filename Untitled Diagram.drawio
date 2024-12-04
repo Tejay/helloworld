@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mxVEewurF9TeRG9_KOVe-21" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mxVEewurF9TeRG9_KOVe-21" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="350" y="90" width="410" height="170" as="geometry" />
         </mxCell>
         <mxCell id="mxVEewurF9TeRG9_KOVe-1" value="1.Data Loader" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
@@ -31,8 +31,8 @@
         <mxCell id="mxVEewurF9TeRG9_KOVe-19" value="Initialise (Data directory)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="230" y="190" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mxVEewurF9TeRG9_KOVe-20" value="Takes data, file generates embedding and stores in the vector store" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="60" width="380" height="30" as="geometry" />
+        <mxCell id="mxVEewurF9TeRG9_KOVe-20" value="Takes data, file generates embedding and stores in the vector store. (1 time only)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="40" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mxVEewurF9TeRG9_KOVe-22" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="335" width="420" height="165" as="geometry" />
@@ -75,6 +75,9 @@
             <mxPoint x="400" y="675" as="sourcePoint" />
             <mxPoint x="450" y="625" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mxVEewurF9TeRG9_KOVe-47" value="&lt;div&gt;&lt;b&gt;Improvements&lt;/b&gt;: Make the Vector Database Only once. Static.&lt;/div&gt;&lt;div&gt;Persistent database. Initialise in a seperate flow.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="40" width="350" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
