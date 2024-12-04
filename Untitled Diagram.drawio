@@ -1,9 +1,81 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.1">
   <diagram name="Page-1" id="is-T7Iw45tftMl4A_mn-">
-    <mxGraphModel>
+    <mxGraphModel dx="2261" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mxVEewurF9TeRG9_KOVe-21" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="90" width="410" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="mxVEewurF9TeRG9_KOVe-1" value="1.Data Loader" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="370" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mxVEewurF9TeRG9_KOVe-2" value="2.Embedding Generator" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="490" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mxVEewurF9TeRG9_KOVe-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mxVEewurF9TeRG9_KOVe-3" target="mxVEewurF9TeRG9_KOVe-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mxVEewurF9TeRG9_KOVe-3" value="RAG system" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="30" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mxVEewurF9TeRG9_KOVe-4" value="3.Vector Store" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="600" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mxVEewurF9TeRG9_KOVe-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mxVEewurF9TeRG9_KOVe-6" target="mxVEewurF9TeRG9_KOVe-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mxVEewurF9TeRG9_KOVe-6" value="Main" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mxVEewurF9TeRG9_KOVe-19" value="Initialise (Data directory)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="190" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mxVEewurF9TeRG9_KOVe-20" value="Takes data, file generates embedding and stores in the vector store" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="60" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mxVEewurF9TeRG9_KOVe-22" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="335" width="420" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="mxVEewurF9TeRG9_KOVe-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mxVEewurF9TeRG9_KOVe-3" target="mxVEewurF9TeRG9_KOVe-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="440" as="sourcePoint" />
+            <mxPoint x="390" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxVEewurF9TeRG9_KOVe-28" value="Query, no of docs" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="430" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mxVEewurF9TeRG9_KOVe-29" value="NL Query Embedding" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="350" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mxVEewurF9TeRG9_KOVe-30" value="Retreive&amp;nbsp; Similar docs from Vectore Store" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="460" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mxVEewurF9TeRG9_KOVe-31" value="Prepare Context" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="560" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mxVEewurF9TeRG9_KOVe-32" value="Open AI GPT Mole" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="490" y="610" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mxVEewurF9TeRG9_KOVe-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mxVEewurF9TeRG9_KOVe-22" target="mxVEewurF9TeRG9_KOVe-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="590" as="sourcePoint" />
+            <mxPoint x="540" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxVEewurF9TeRG9_KOVe-43" value="Send Prompt Query Embeding, Context )" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="550" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mxVEewurF9TeRG9_KOVe-44" value="REsponse" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="180" y="620" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mxVEewurF9TeRG9_KOVe-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.012;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mxVEewurF9TeRG9_KOVe-32" target="mxVEewurF9TeRG9_KOVe-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="675" as="sourcePoint" />
+            <mxPoint x="450" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
